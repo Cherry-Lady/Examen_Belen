@@ -1,0 +1,113 @@
+@charset "ISO-8859-1";
+
+
+body {
+	font-size: 16px;
+}
+
+h1 { /* Afecta a todas las etiquetas h1 */
+	padding: 0.7em;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+ 
+.contenedor {
+	width: 800px;
+	margin: 0 auto; /* 0 arriba y abajo, automatico izq der */
+	background: #bbdcc0;
+	padding-bottom: 1em;
+}
+
+.lista_inicio {
+	list-style: none;
+	padding: 1em;	
+}
+
+.lista_inicio li {
+	margin: 0.4em;
+	text-align: center;
+}
+
+.lista_inicio a { /* Afecta a las etiquetas A (enlace) dentro de la clase lista_inicio */
+	text-decoration: none;
+	color: #000000;
+	display: inline-block;
+	padding: 0.3em 0.6em 0.3em 0.6em; /*arriba derecha abajo iz*/
+	background-color: #89cc8d;
+	width: 20%;
+}
+
+.div_form {
+	width: 80%;
+	padding: 1em;
+	margin: 0 auto;
+	background: #eaeaea; 
+}
+
+form {
+	padding: 1em;
+	background: #ccc;
+}
+
+
+.div_radios {
+	padding: 1em;
+	
+}
+
+.div_radios.div_radiosmitad label {
+	display: inline-block;
+	width: 47%;
+	text-align: center;
+}
+
+.columna_mitad {
+	width: 47%;
+    padding: 0.5em; /* .5 es igual a 0.5 (em/px/etc) */
+    float: left;
+     
+}
+
+/* Este estilo afecta a los elementos con clase columna_mitad y columna_cdt*/
+.columna_mitad.columna_cdt{
+	padding: 2em 0;
+}
+
+.columna_mitad input,
+.columna_centro input {
+	margin: 7px;
+}
+
+.columna_centro {
+	padding: 0.5em;
+	text-align: center;
+}
+
+.div_boton {
+	text-align: center;
+	clear: both;
+}
+
+.div_boton input {
+	font-size: 15px;
+	width: 90%;
+	background-color: #89cc8d;
+}
+.div_nif {
+	padding: 0.5em;
+	text-align: center;
+	margin: 7px;
+	
+}
+
+.div_nif input {
+	text-align: center;
+	margin: 7px;
+}
+
+.res_form {
+	background-color: #e6e4e4;
+	margin: 20px;
+	padding: 20px;
+}
+
